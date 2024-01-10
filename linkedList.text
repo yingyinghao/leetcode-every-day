@@ -1,0 +1,45 @@
+# Create an Linkedlist //创建链表
+Linkedlist = deque(); //队列
+
+#Add elements 添加元素
+#Time Complexity: O(1)
+linkedlist.append(1)
+linkedlist.append(2)
+linkedlist.append(3)
+[1,2,3]
+print(linkedlist)
+
+#Insert elements
+#Time Complexity: O(N)
+linkedlist.insert(2,99)
+#[1,2,99,3]
+print(linkedlist)
+
+#Access element 访问元素
+#Time Complexity: O(N)
+element = linkedlist[2]
+# 99
+print(element)
+
+#Search element
+#Time Complexity: O(N)
+index = linkedlist.index(99)
+# 2
+print(index)
+
+#Update element
+#Time Complexity: O(N)
+#[1,2,88,3]
+
+#Remove element
+#Time Complexity: O(N)
+#del linkedlist[2]
+linkedlist.remove(88)
+# [1,2,3]
+print(linkedlist)
+
+#Length
+#Time Complexity: O(1)
+length = len(Linkedlist)
+# 3
+print(length)
