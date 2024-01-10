@@ -1,0 +1,68 @@
+# Create an array
+a = []
+
+# Add element
+# Time complexity: O(1)
+a.append(1)
+a.append(2)
+a.append(3)
+# [1,2,3]
+print(a)
+
+#Insert element
+#time complexity: O(N)
+a.insert(2, 99)
+#[1,2,99,3]
+print (a)
+
+#Access element (访问元素， 用索引（下标）访问元素)
+#Time complexity: O(1)
+temp = a[2]
+# 99
+print (temp)
+
+#Update element
+#Time complexity: O(1)
+a[2] = 88
+# [1, 2, 88, 3]
+print(a)
+
+#Remove element
+#Time complexity: O(N)
+
+a.remove(88)
+# [1,2,3]
+print(a)
+a.pop(1) //index
+# [1,3]
+print(a)
+#Time complexity: O(1)
+a.pop()
+# [1]
+print(a)
+
+#获取数组长度
+
+a = [1,2,3]
+#Get array size
+size = len(a)
+# 3
+print(size)
+
+
+#Iterate array
+#Time complexity: O(N)
+for i in a:
+    print(i)
+for index, element in enumerate(a):
+    print("Index at ", index , "is : ", element)
+for i in range(0, len(a)):
+    print("i: ", i, " element: ", a[i])
+
+
+
+
+
+
+
+
