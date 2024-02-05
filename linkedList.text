@@ -1,3 +1,14 @@
+#definition for single-linked list
+class ListNode:
+  def _init_(self, x):
+    self.val = x
+    self.next = None
+linkedList and array:
+array: access quick
+       search delete insert slow
+linkedList: insert delete quick
+            search slow
+
 # Create an Linkedlist //创建链表
 Linkedlist = deque(); //队列
 
@@ -43,3 +54,5 @@ print(linkedlist)
 length = len(Linkedlist)
 # 3
 print(length)
+
+
